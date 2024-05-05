@@ -1,0 +1,92 @@
+html {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  body{
+      margin: 0;
+      background-color: #efefef;
+  
+  }
+  
+  header{
+      background-color: darkcyan;
+      color: white;
+      padding: 1rem 2rem;
+      
+    }
+    
+    footer{
+         background-color: darkcyan; 
+         color: white; 
+         padding: 3rem 2rem; 
+    } 
+    footer a{
+        color: white;
+    }
+    
+    header h1{
+        font-size: 2rem;
+        text-align: center;
+    }
+    
+    .contenedor{
+        width: 600px;
+        margin: auto;
+    } 
+    
+     
+    section article{
+        background-color: #fff;
+        margin:  2rem 0; 
+        border-radius: 0.5rem;
+        padding: 0.25rem 0rem;
+    }
+    section article img{
+        padding: 0 5rem;
+    }
+    section article h2, section article p{
+        margin: 1rem;
+    }
+    
+    section form{
+        background-color: #fff;
+        margin:  1rem 0; 
+        border-radius: 0.5rem;
+        padding: 0.25rem 0;
+    }
+    section form h2, section form label, section form input, section form textarea {
+        margin: 1rem;
+    }
+    
+    .info{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    nav{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    }
+ul li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+ul a{
+    color: wheat;
+}
+
+  footer div a{
+    padding: 1rem 1rem;
+  }
+
+  header{
+     position: sticky; 
+    top: 0;
+   
+  }
